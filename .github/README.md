@@ -1,5 +1,6 @@
 # Miki
 ![lol oily fucked up](https://discordbots.org/api/widget/status/160105994217586689.svg) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/0181e7d12f8344fd9950067e80f53f74)](https://www.codacy.com/app/velddev/Miki?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=velddev/Miki&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FFuzen-py%2FMiki.Bot.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FFuzen-py%2FMiki.Bot?ref=badge_shield)
 <br>
 Below you will find a basic workflow of how the branches should work. Please follow this to prevent bad merge conflicts on Miki and things constantly breaking.
 
@@ -96,3 +97,7 @@ These will likely be fixed in the near future (if it's not already by the time y
 * A lack of API keys might be giving you issues in the `DonatorModule` and `FunModule`, the simplest way to solve it is to just comment out the lines that raise exceptions and  the lines that reference the client **(there shouldn't be more than 2 reference max, if so, you're doing something wrong).**
 
 * If you're having trouble running migrations make sure your `EntityFramework` for both base `Miki` and `Miki.Framework` is on version 2.0.1-2.0.3 **NOT** 2.1.1.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FFuzen-py%2FMiki.Bot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FFuzen-py%2FMiki.Bot?ref=badge_large)
